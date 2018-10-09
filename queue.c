@@ -38,7 +38,7 @@ void display()
       int i;
       printf("\nQueue elements are :\n");
       for(i=tail; i<=head; i++)
-	  printf("%d\t",queue[i]);
+      printf("%d\t",queue[i]);
     }
 }
 void main()
@@ -52,4 +52,3 @@ void main()
     deQueue();
     display();
 }
-
