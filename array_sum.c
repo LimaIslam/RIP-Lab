@@ -5,7 +5,7 @@ void main()
     int i,j,r,c;
     printf("Enter the number of rows : \n");
     scanf("%d", &r);
-    printf("Enter the number of column : \n");
+    printf("Enter the number of columns : \n");
     scanf("%d", &c);
     printf("Enter the elements : \n");
     for(i=0;i<r;i++)
@@ -25,4 +25,3 @@ void main()
     printf("\n");
     }
 }
-
